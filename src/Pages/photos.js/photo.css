@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@100&display=swap');
+
+
+
+*{     
+    margin: 0;
+    padding: 0;    
+    list-style: none;
+    text-decoration: none;
+    width:  100%;
+    
+    
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+
+
+}
+
+#fundo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+        
+    
+    
+    background-image: url(https://images.hdqwalls.com/wallpapers/the-batman-solving-the-riddle-20.jpg);
+    background-size: cover;
+
+    
+}
+
+
+
+.fotos {
+    width: 400px;
+    height: 600px;
+    background-position: 50% 50%;
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    margin-top: 50px;
+    transition: 1s;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+    
+   
+   
+
+
+}
+
+
+
+.bat{
+    
+    background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/02/22/1303576951-batman-pattinson.jpg);
+}
+
+
+
+.cat {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5nDIuvupXY_rI9elTgkxHBrtbw_IQ8002dQ&usqp=CAU);
+
+    
+}
+
+
+.charada{
+    background-image: url(https://w0.peakpx.com/wallpaper/612/667/HD-wallpaper-riddler-the-batman-movie.jpg);
+}
+
+.pinguim {
+    background-image: url(https://assets-prd.ignimgs.com/2022/04/15/the-batman-the-penguin-button-01-1650060924211.jpg?width=300);
+
+}
+
+.falcone {
+
+    background-image: url(https://pbs.twimg.com/media/EkJGl2MWkAAdKWa?format=jpg&name=medium);
+}
+
+.jim {
+
+    background-image: url(https://img.ibxk.com.br/2022/03/03/03102728353197.jpg?ims=704x);
+}
+
+.car{
+
+    background-image: url(https://aglomerado.digital/wp-content/uploads/2023/03/2.png);
+}
+
+.car:hover{
+    background-image: url(https://aglomerado.digital/wp-content/uploads/2023/03/2.png);
+    width: 170%;
+    transform: scale(1.02);
+    margin-bottom: 20px;
+}
+
+.bm{
+    background-image: url(https://kickstart.bikeexif.com/wp-content/uploads/2022/04/batcycle-batman-motorcycle-5-625x417.jpg);
+    
+}
+.bm:hover{
+    background-image: url(https://kickstart.bikeexif.com/wp-content/uploads/2022/04/batcycle-batman-motorcycle-5-625x417.jpg);
+    width: 120%;
+   margin-bottom:30px;
+   margin-right:100px;
+}
+
+.gotham {
+    background-image: url(https://aventurasnahistoria.uol.com.br/media/_versions/curiosidades/gotham_fD3aAkV_widelg.jpg);
+   
+}
+.gotham:hover{
+    background-image: url(https://aventurasnahistoria.uol.com.br/media/_versions/curiosidades/gotham_fD3aAkV_widelg.jpg);
+    width: 170%;
+    margin-bottom: 30px;
+
+}
+
+.fotos:hover{
+   
+
+    scale: 1.04;
+}
+
+
+@media (max-width: 768px){
+
+#fundo{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-size: cover;
+    background-image: url(https://images.hdqwalls.com/wallpapers/the-batman-solving-the-riddle-20.jpg);
+    
+ 
+}
+ 
+ .fotos{
+    
+    object-fit: cover;
+    
+   
+    margin-left: 32px;
+     width: 300px;
+     height: 600px;
+ }
+
+}

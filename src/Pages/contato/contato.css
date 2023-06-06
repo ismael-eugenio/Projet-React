@@ -1,0 +1,32 @@
+.container{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 80vh;
+    font-size: 30px;
+    transition: 3s;
+}
+
+.contato{
+    margin-bottom: 50px;
+}
+
+
+span{
+    display: block;
+}
+
+.back{
+    background-image: url(https://preview.redd.it/txnyglrm9pr61.png?width=2048&format=png&auto=webp&v=enabled&s=1d0cb6af71bc10a90d84634e91d0d95bb284c93f   );
+    background-size: cover;
+}
+
+@media(max-width:768px){
+
+.container{
+    margin-left: 10px;
+    font-size: 20px;
+}
+}

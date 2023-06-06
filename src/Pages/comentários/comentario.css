@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+
+    
+    
+    
+    }
+
+    .box{
+        margin-left: 250px;
+    }
+    
+
+
+    #comentários{
+        width: 500px;
+        margin-top: 30px;
+        margin-left: 430px;
+        
+    }
+
+    #nick{
+        width: 300px;
+        margin-left: 470px;
+    }
+
+#pai { 
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-direction: column;
+    
+
+    
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+   
+    background-image: url(https://trecobox.com.br/wp-content/uploads/2022/04/The-Batman-Filme-2022.jpg);
+    background-size: cover;
+
+}
+
+#nome {
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(248, 238, 238);
+    font-weight: bolder;
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+
+
+
+
+#assunto{ 
+    
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    opacity: 0.3;
+    
+}
+
+#texto{
+
+margin-top: 20px;
+color: black;
+font-weight: bolder;
+font-size: 20px;
+opacity: 0.3;
+
+
+}
+
+.filho {
+    margin-top: 30%;
+    
+}
+
+.div {
+
+    font-size: 30px;
+    background-color: red;
+    opacity: 0.8;
+    font-weight: bolder;
+    border-radius: 5px; 
+    transition: 3s;
+    cursor: pointer;  
+    
+}
+.div:hover{
+    font-size: 30px;
+    background-color: #fff;
+    opacity: 0.8;
+    font-weight: bolder;
+    border-radius: 5px; 
+    
+
+}
+
+
+.btm {
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 5px;    
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 650px;
+    }
+
+    
+    
+.btm:hover {
+        background-color: #fff;
+        color: black; 
+    }
+
+@media (max-width: 768px){
+
+    #pai { 
+        width: 100%;
+        height:100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center ;
+        flex-direction: column;
+
+        font-family: 'Kdam Thmor Pro', sans-serif;
+   
+    background-image: url(https://trecobox.com.br/wp-content/uploads/2022/04/The-Batman-Filme-2022.jpg);
+    background-size: cover;
+
+
+        
+
+        }
+
+
+
+
+   #texto {
+    width: 100%;
+
+
+   }
+
+   #comentários{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+#nick{
+    width: 200px;
+    margin-left: 30px;
+    
+
+}
+
+.btm {
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 5px;    
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 200px;
+    }
+ 
+
+.box{
+  margin-left: 0px;
+
+  
+   
+}
+
+}
+
+
